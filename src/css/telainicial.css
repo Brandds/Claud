@@ -1,0 +1,157 @@
+@import url("../index.css");
+#navegacao {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.logoAplicacao {
+  width: 100px;
+}
+
+#navegacao .titleAplicacao {
+  color: var(--fontColor-BlackGray);
+
+  display: flex;
+  align-items: center;
+  font-family: "Anton";
+  font-size: 1.4rem;
+  gap: 30px;
+}
+#navegacao .linkInstagram {
+  color: var(--fontColor-BlackGray);
+  font-family: "Barlow";
+  font-size: 1.2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#navegacao .iconsRedeSocial {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+/*Icon Instagram*/
+.gg-instagram {
+  color: var(--fontColor-Gray);
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 3px;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+}
+.gg-instagram::after,
+.gg-instagram::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+}
+.gg-instagram::after {
+  color: var(--fontColor-Gray);
+  border: 3px solid;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  top: 3px;
+}
+.gg-instagram::before {
+  color: var(--fontColor-Gray);
+  border-radius: px;
+  width: 4px;
+  height: 4px;
+  background: currentColor;
+  right: 1px;
+  top: 1px;
+}
+.gg-instagram:hover {
+  color: var(--fontColor-BlackGray);
+}
+.gg-instagram:hover::after {
+  color: var(--fontColor-BlackGray);
+}
+.gg-instagram:hover::before {
+  color: var(--fontColor-BlackGray);
+}
+/*Icon Instagram*/
+/*Icon Seach*/
+.gg-globe-alt,
+.gg-globe-alt::after,
+.gg-globe-alt::before {
+  color: var(--fontColor-Gray);
+  display: block;
+  box-sizing: border-box;
+  height: 30px;
+  border: 3px solid;
+}
+.gg-globe-alt {
+  position: relative;
+  transform: scale(var(--ggs, 1));
+  width: 30px;
+  border-radius: 22px;
+}
+.gg-globe-alt::after,
+.gg-globe-alt::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  border-radius: 100%;
+  top: -3px;
+  left: 3px;
+}
+.gg-globe-alt::after {
+  width: 36px;
+  height: 27px;
+  border: 2px solid transparent;
+  border-bottom: 2px solid;
+  top: -11px;
+  left: -5px;
+}
+.gg-globe-alt:hover {
+  color: var(--fontColor-BlackGray);
+}
+.gg-globe-alt:hover::after {
+  color: var(--fontColor-BlackGray);
+}
+.gg-globe-alt:hover::before {
+  color: var(--fontColor-BlackGray);
+}
+/*Icon Seach*/
+
+/*Section----------------------------------------------------------------------------*/
+#section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+  align-items: center;
+}
+#section .content-Sessao {
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--fontColor-Pink);
+  border-radius: 15px;
+  color: var(--fontColor-Write);
+  font-size: 1.2rem;
+  font-family: "Anton";
+}
+.paragrafo-Content {
+  width: 100%;
+  display: flex;
+  color: var(--fontColor-Write);
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+/*Section----------------------------------------------------------------------------*/
