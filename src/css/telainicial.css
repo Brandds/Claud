@@ -1,4 +1,8 @@
 @import url("../index.css");
+#div-container {
+  height: 100vh;
+  background-color: var(--fontColor-Write);
+}
 #navegacao {
   padding: 10px;
   width: 100%;
