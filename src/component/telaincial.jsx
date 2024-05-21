@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/telainicial.css";
-import ImagemLogo from "../img/Favicon-Claud.png";
+import ImagemLogo from "../img/rafael.jpeg";
+
 import { Link } from "react-router-dom";
 
 export function Navegacao() {
@@ -14,38 +15,23 @@ export function Navegacao() {
             <li className="titleUlLiAplicacao">Café, decor & Mesa Posta</li>
           </ul>
         </p>
-        <p className="linkInstagram">@firstName_lastName</p>
-        <p className="iconsRedeSocial">
-          <i class="gg-instagram"></i>
-          <i class="gg-globe-alt"></i>
-        </p>
+        <p className="linkInstagram">@rafaelbrandao</p>
       </nav>
       <section id="section">
         <article className="content-Sessao">
           <Link to="/principal" className="paragrafo-Content">
-            PROMO
+            Portfólio
           </Link>
         </article>
         <article className="content-Sessao">
-          <Link to="/principal" className="paragrafo-Content">
-            <p>Mais Vendidos</p>
+          <Link to="/" className="paragrafo-Content">
+            Linkedin
           </Link>
         </article>
         <article className="content-Sessao">
-          <a className="paragrafo-Content" href="http://">
-            <p>COMPRE PELO SITE </p>
-          </a>
-        </article>
-        <article className="content-Sessao">
-          <a className="paragrafo-Content" href="http://">
-            <p>FALE COM A GENTE</p>
-          </a>
-        </article>
-
-        <article className="content-Sessao">
-          <a className="paragrafo-Content" href="">
-            <p>Faça parte do grupo Claud</p>
-          </a>
+          <Link className="paragrafo-Content" href="http://">
+            <p>GitHub </p>
+          </Link>
         </article>
       </section>
     </div>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import ImagemLogo from "../img/Favicon-Claud.png";
+import ImagemLogo from "../img/rafael.jpeg";
+import { Link } from "react-router-dom";
 
 import "../css/telaprincipal.css";
 
@@ -28,21 +29,15 @@ export function Header() {
       <nav id="navegacao">
         <img src={ImagemLogo} className="logoAplicacao" alt="" />
       </nav>
-      <h1 className="title">Bem vindo a Claud</h1>
-      <p className="subtitle">Melhores produtos</p>
+      <h1 className="title">Rafael Brandão 22</h1>
+      <h2 className="subtitle">Contagem/MG</h2>
       <nav className={isSticky ? "tabs-container sticky" : "tabs-container"}>
-        <a href="" className="tab">
-          <p className="paragrafo-navegecao">MESA E COZINANHA </p>
-        </a>
-        <a href="" className="tab">
-          <p className="paragrafo-navegecao">KIT E CONJUNTINHOS</p>
-        </a>
-        <a href="" className="tab">
-          <p className="paragrafo-navegecao">DECORAÇÃO</p>
-        </a>
-        <a href="" className="tab">
-          <p className="paragrafo-navegecao">TÁ NA PROMO</p>
-        </a>
+        <Link href="" className="tab">
+          <p className="paragrafo-navegecao">Sobre</p>
+        </Link>
+        <Link href="" className="tab">
+          <p className="paragrafo-navegecao">Soft Skills</p>
+        </Link>
       </nav>
     </header>
   );
